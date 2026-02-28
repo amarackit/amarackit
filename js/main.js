@@ -155,7 +155,7 @@ const CounterAnimation = (() => {
   }
 
   function init() {
-    const counters = document.querySelectorAll('.stat-number[data-target]');
+    const counters = document.querySelectorAll('.metric-num[data-target]');
     if (!counters.length) return;
 
     const observer = new IntersectionObserver(entries => {

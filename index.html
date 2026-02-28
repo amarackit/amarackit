@@ -4,29 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO -->
   <title>Amar Lamichhane — Full Stack Architect & CTO</title>
-  <meta name="description" content="Amar Lamichhane is a Full Stack Developer and CTO with 12+ years building scalable web, mobile, and AI-powered systems. Based in Kathmandu, Nepal." />
-  <meta name="keywords" content="Amar Lamichhane, Full Stack Developer, CTO, Angular, React, Laravel, NestJS, TypeScript, PHP, AI, Nepal" />
+  <meta name="description" content="Amar Lamichhane — Full Stack Developer and CTO with 12+ years building scalable web, mobile, and AI systems. Based in Kathmandu, Nepal." />
+  <meta name="keywords" content="Amar Lamichhane, Full Stack Developer, CTO, Angular, React, Laravel, NestJS, TypeScript, AI, Nepal" />
   <meta name="author" content="Amar Lamichhane" />
-  <link rel="canonical" href="https://amarlamichhane.dev" />
 
-  <!-- Open Graph -->
   <meta property="og:title" content="Amar Lamichhane — Full Stack Architect & CTO" />
-  <meta property="og:description" content="12+ years engineering scalable systems — from full-stack web to AI platforms and mobile apps." />
+  <meta property="og:description" content="12+ years engineering scalable systems. From code to CTO." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://amarlamichhane.dev" />
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Amar Lamichhane — Full Stack Architect & CTO" />
-  <meta name="twitter:description" content="12+ years engineering scalable systems. From code to CTO." />
 
-  <!-- Fonts -->
+  <!-- Plus Jakarta Sans + Inter + JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
     rel="stylesheet"
   />
 
@@ -34,13 +28,12 @@
 </head>
 <body>
 
-  <!-- Cursor glow effect (desktop only) -->
   <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
 
-  <!-- ==================== NAVIGATION ==================== -->
+  <!-- ==================== NAV ==================== -->
   <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
     <div class="nav-container">
-      <a href="#hero" class="nav-logo" aria-label="Amar Lamichhane - Home">AL</a>
+      <a href="#hero" class="nav-logo mono" aria-label="Home">amar.dev</a>
 
       <ul class="nav-links" id="navLinks" role="list">
         <li><a href="#about"      class="nav-link">About</a></li>
@@ -51,15 +44,13 @@
       </ul>
 
       <div class="nav-actions">
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
           <span class="theme-icon-dark" aria-hidden="true">☾</span>
           <span class="theme-icon-light" aria-hidden="true">☀</span>
         </button>
         <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
-        <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
         </button>
       </div>
     </div>
@@ -67,118 +58,127 @@
 
   <!-- ==================== HERO ==================== -->
   <section class="hero" id="hero" aria-label="Introduction">
-    <!-- Animated background -->
     <div class="hero-bg" aria-hidden="true">
       <div class="orb orb-1"></div>
       <div class="orb orb-2"></div>
       <div class="orb orb-3"></div>
-      <div class="hero-grid"></div>
     </div>
 
-    <!-- Hero content -->
-    <div class="hero-content">
-      <div class="hero-badge">
-        <span class="badge-dot" aria-hidden="true"></span>
-        Full Stack Developer &amp; CTO &nbsp;·&nbsp; Kathmandu, Nepal
+    <div class="container">
+      <div class="hero-inner">
+
+        <!-- Status line -->
+        <div class="hero-eyebrow">
+          <div class="hero-avail">
+            <span class="avail-dot" aria-hidden="true"></span>
+            <span class="mono">available for new opportunities</span>
+          </div>
+          <span class="mono hero-coords">// Kathmandu, Nepal &nbsp;·&nbsp; UTC+5:45</span>
+        </div>
+
+        <!-- Name — statement -->
+        <h1 class="hero-name">
+          Amar<br>Lamichhane<span class="hero-period" aria-hidden="true">.</span>
+        </h1>
+
+        <!-- Two-column: tagline left / bio + CTAs right -->
+        <div class="hero-sub">
+          <div class="hero-sub-l">
+            <span class="mono hero-role">// CTO &amp; Full Stack Architect</span>
+            <h2 class="hero-tagline">
+              I build the systems<br>great products run on.
+            </h2>
+          </div>
+          <div class="hero-sub-r">
+            <p class="hero-desc">
+              Specializing in large-scale web applications, AI integration, and
+              engineering team leadership. From greenfield architecture to
+              production-ready systems — I own the full picture.
+            </p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary btn-lg">
+                Let's talk
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+              <a href="Amar_Lamichhane_Resume_Complete.docx" download class="btn btn-ghost btn-lg">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                </svg>
+                Resume
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Metrics strip -->
+        <div class="hero-metrics" role="list" aria-label="Key metrics">
+          <div class="metric" role="listitem">
+            <div class="metric-top">
+              <span class="metric-num mono" data-target="12">0</span>
+              <span class="metric-suffix mono">+</span>
+            </div>
+            <span class="metric-label">yrs experience</span>
+          </div>
+          <div class="metric" role="listitem">
+            <div class="metric-top">
+              <span class="metric-num mono" data-target="15">0</span>
+              <span class="metric-suffix mono">+</span>
+            </div>
+            <span class="metric-label">projects shipped</span>
+          </div>
+          <div class="metric" role="listitem">
+            <div class="metric-top">
+              <span class="metric-num mono" data-target="40">0</span>
+              <span class="metric-suffix mono">%</span>
+            </div>
+            <span class="metric-label">AI accuracy gain</span>
+          </div>
+          <div class="metric" role="listitem">
+            <div class="metric-top">
+              <span class="metric-num mono" data-target="50">0</span>
+              <span class="metric-suffix mono">%</span>
+            </div>
+            <span class="metric-label">dev time saved</span>
+          </div>
+        </div>
+
       </div>
-
-      <h1 class="hero-name">
-        <span class="gradient-text">Amar Lamichhane</span>
-      </h1>
-
-      <h2 class="hero-tagline">
-        Engineering Systems That Scale.<br />Products That Win.
-      </h2>
-
-      <p class="hero-description">
-        12+ years architecting scalable platforms, leading cross-functional teams, and shipping
-        products across web, mobile, AI, and cloud — from the first line of code to full CTO leadership.
-      </p>
-
-      <div class="hero-actions">
-        <a href="#contact" class="btn btn-primary btn-lg">
-          <span>Let's Build Together</span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
-          </svg>
-        </a>
-        <a href="Amar_Lamichhane_Resume_Complete.docx" download class="btn btn-ghost btn-lg">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
-            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
-          </svg>
-          <span>Download Resume</span>
-        </a>
-      </div>
-
-      <!-- Key metrics -->
-      <div class="hero-stats" role="list" aria-label="Key achievements">
-        <div class="stat" role="listitem">
-          <div>
-            <span class="stat-number" data-target="12">0</span><span class="stat-plus">+</span>
-          </div>
-          <span class="stat-label">Years Experience</span>
-        </div>
-        <div class="stat-divider" aria-hidden="true"></div>
-        <div class="stat" role="listitem">
-          <div>
-            <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
-          </div>
-          <span class="stat-label">Projects Delivered</span>
-        </div>
-        <div class="stat-divider" aria-hidden="true"></div>
-        <div class="stat" role="listitem">
-          <div>
-            <span class="stat-number" data-target="40">0</span><span class="stat-plus">%</span>
-          </div>
-          <span class="stat-label">AI Match Accuracy Gain</span>
-        </div>
-        <div class="stat-divider" aria-hidden="true"></div>
-        <div class="stat" role="listitem">
-          <div>
-            <span class="stat-number" data-target="50">0</span><span class="stat-plus">%</span>
-          </div>
-          <span class="stat-label">Dev Time Reduction</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Scroll indicator -->
-    <div class="hero-scroll-indicator" aria-hidden="true">
-      <span>Scroll to explore</span>
-      <div class="scroll-line"></div>
     </div>
   </section>
 
   <!-- ==================== ABOUT ==================== -->
-  <section class="section about-section" id="about" aria-label="About me">
+  <section class="section about-section" id="about" aria-label="About">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">About Me</span>
-        <h2 class="section-title">From Code to CTO —<br />The Full Picture</h2>
+        <span class="section-label">About</span>
+        <h2 class="section-title">Not just an engineer.<br>An architect and operator.</h2>
       </div>
 
       <div class="about-grid">
-        <!-- Narrative -->
         <div class="about-narrative reveal">
           <p class="about-lead">
-            I'm not just a developer who writes code — I'm an architect who designs systems,
-            a leader who builds teams, and a strategist who translates business vision into
-            technical reality.
+            I don't just write code — I design systems, build teams, and translate
+            business strategy into technical execution. My edge is operating across
+            the full stack of engineering and leadership simultaneously.
           </p>
           <p>
-            Over 12+ years, I've worn every hat that matters: from writing the first line of
-            code on greenfield projects to stepping back and defining the technical roadmap as CTO.
-            My strength lies at the intersection of deep technical execution and strategic thinking.
+            Over 12+ years I've worked every layer: greenfield architecture,
+            production firefighting, team growth from 2 to 8+, client-facing
+            technical leadership, and everything in between. Currently CTO at
+            Ensue Nepal, where I set the technical direction for every product
+            we ship.
           </p>
           <p>
-            At Ensue Nepal, I lead cross-functional teams delivering enterprise-grade platforms —
-            AI-powered learning systems, IoT mobile applications, healthcare SaaS platforms, and
-            component design systems. I don't just ship features; I build the foundations that
-            make teams 30–50% more productive.
+            I care about clarity — in system design, in code, and in communication.
+            I build things that are easy to reason about, easy to extend, and
+            genuinely useful to the people who use them.
           </p>
           <p>
-            I care deeply about clarity in architecture, quality in code, and measurable impact
-            in outcomes. Every system I design is built to scale — both technically and organizationally.
+            When I'm not shipping product, I'm thinking about developer tooling,
+            AI/ML applications, and how to make teams dramatically more productive
+            through better architecture and automation.
           </p>
           <div class="about-quote">
             <span class="quote-mark">"</span>
@@ -189,30 +189,29 @@
           </div>
         </div>
 
-        <!-- Sidebar -->
         <div class="about-sidebar reveal">
           <div class="about-card">
-            <h3 class="about-card-title">My Approach</h3>
+            <h3 class="about-card-title">How I work</h3>
             <div class="approach-list">
               <div class="approach-item">
                 <div class="approach-icon" aria-hidden="true">⚡</div>
                 <div>
-                  <strong>Systems Thinking</strong>
-                  <p>Every architectural decision considers scalability, team velocity, and long-term maintainability.</p>
+                  <strong>Systems thinking</strong>
+                  <p>Every decision accounts for scale, maintainability, and team velocity — not just today's deadline.</p>
                 </div>
               </div>
               <div class="approach-item">
                 <div class="approach-icon" aria-hidden="true">🎯</div>
                 <div>
-                  <strong>Impact First</strong>
-                  <p>I measure success by business outcomes — adoption, performance gains, and team efficiency.</p>
+                  <strong>Outcome-driven</strong>
+                  <p>I measure success in business impact: adoption, performance deltas, and team efficiency gains.</p>
                 </div>
               </div>
               <div class="approach-item">
                 <div class="approach-icon" aria-hidden="true">🔬</div>
                 <div>
-                  <strong>Deep Technical Ownership</strong>
-                  <p>I lead from the front — understanding every layer of the stack I oversee.</p>
+                  <strong>Deep ownership</strong>
+                  <p>I lead from the front. I understand every layer of the systems I oversee.</p>
                 </div>
               </div>
             </div>
@@ -229,11 +228,11 @@
             </div>
             <div class="contact-row">
               <span class="contact-label">Location</span>
-              <span>Kathmandu, Nepal</span>
+              <span>Kathmandu, Nepal (remote-friendly)</span>
             </div>
             <div class="contact-row">
               <span class="contact-label">Phone</span>
-              <a href="tel:+9779843142234">+977-984-314-2234</a>
+              <a href="tel:+9779843142234" class="mono">+977-984-314-2234</a>
             </div>
           </div>
         </div>
@@ -242,24 +241,22 @@
   </section>
 
   <!-- ==================== SKILLS ==================== -->
-  <section class="section skills-section" id="skills" aria-label="Technical skills">
+  <section class="section skills-section" id="skills" aria-label="Skills">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">Technical Expertise</span>
-        <h2 class="section-title">Full-Spectrum<br />Engineering Capabilities</h2>
+        <span class="section-label">Skills</span>
+        <h2 class="section-title">Full-spectrum engineering<br>across the entire stack.</h2>
         <p class="section-description">
-          From pixel-perfect frontends to distributed backend systems, AI integration
-          to native mobile — I build across the entire stack.
+          Web, mobile, AI, cloud, and the architecture that holds it all together.
         </p>
       </div>
 
       <div class="skills-grid">
 
-        <!-- Frontend -->
         <div class="skill-category reveal">
           <div class="skill-category-header">
             <div class="skill-category-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
               </svg>
             </div>
@@ -276,11 +273,10 @@
           </div>
         </div>
 
-        <!-- Backend -->
         <div class="skill-category reveal">
           <div class="skill-category-header">
             <div class="skill-category-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
               </svg>
             </div>
@@ -296,11 +292,10 @@
           </div>
         </div>
 
-        <!-- Mobile -->
         <div class="skill-category reveal">
           <div class="skill-category-header">
             <div class="skill-category-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/>
               </svg>
             </div>
@@ -314,11 +309,10 @@
           </div>
         </div>
 
-        <!-- AI & Data -->
         <div class="skill-category reveal">
           <div class="skill-category-header">
             <div class="skill-category-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
               </svg>
             </div>
@@ -333,11 +327,10 @@
           </div>
         </div>
 
-        <!-- Cloud & DevOps -->
         <div class="skill-category reveal">
           <div class="skill-category-header">
             <div class="skill-category-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/>
               </svg>
             </div>
@@ -353,11 +346,10 @@
           </div>
         </div>
 
-        <!-- Databases -->
         <div class="skill-category reveal">
           <div class="skill-category-header">
             <div class="skill-category-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
               </svg>
             </div>
@@ -371,17 +363,16 @@
           </div>
         </div>
 
-        <!-- Architecture — wide card -->
         <div class="skill-category skill-category-wide reveal">
           <div class="skill-category-header">
             <div class="skill-category-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polygon points="12 2 2 7 12 12 22 7 12 2"/>
                 <polyline points="2 17 12 22 22 17"/>
                 <polyline points="2 12 12 17 22 12"/>
               </svg>
             </div>
-            <h3>Architecture &amp; Engineering Leadership</h3>
+            <h3>Architecture &amp; Leadership</h3>
           </div>
           <div class="skill-tags">
             <span class="skill-tag expert">Event-Driven Architecture</span>
@@ -399,62 +390,52 @@
 
       </div>
 
-      <!-- Legend -->
       <div class="skill-legend reveal">
-        <span class="legend-item">
-          <span class="skill-dot expert-dot" aria-hidden="true"></span>
-          Expert (5+ years)
-        </span>
-        <span class="legend-item">
-          <span class="skill-dot advanced-dot" aria-hidden="true"></span>
-          Advanced (3–5 years)
-        </span>
-        <span class="legend-item">
-          <span class="skill-dot proficient-dot" aria-hidden="true"></span>
-          Proficient (1–3 years)
-        </span>
+        <span class="legend-item"><span class="skill-dot expert-dot" aria-hidden="true"></span>Expert (5+ yrs)</span>
+        <span class="legend-item"><span class="skill-dot advanced-dot" aria-hidden="true"></span>Advanced (3–5 yrs)</span>
+        <span class="legend-item"><span class="skill-dot proficient-dot" aria-hidden="true"></span>Proficient (1–3 yrs)</span>
       </div>
     </div>
   </section>
 
   <!-- ==================== PROJECTS ==================== -->
-  <section class="section projects-section" id="projects" aria-label="Selected projects">
+  <section class="section projects-section" id="projects" aria-label="Projects">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">Selected Work</span>
-        <h2 class="section-title">Projects That Moved<br />the Needle</h2>
+        <span class="section-label">Work</span>
+        <h2 class="section-title">Six projects.<br>Measurable outcomes.</h2>
         <p class="section-description">
-          Not just features — systems with measurable impact. Each project represents
-          a solved problem, a real business outcome, and a technical challenge conquered.
+          Every project listed here shipped to production and moved a real number.
         </p>
       </div>
 
       <div class="projects-grid">
 
-        <!-- 1. Ascend Learning — Featured (AI) -->
-        <article class="project-card project-featured reveal">
+        <!-- 001 -->
+        <article class="project-card reveal">
+          <span class="project-num mono">001</span>
           <div class="project-card-header">
             <span class="project-category">AI / Machine Learning</span>
-            <span class="project-impact-badge">🎯 40% Accuracy Improvement</span>
+            <span class="project-impact-badge">+40% accuracy</span>
           </div>
           <h3 class="project-title">Ascend Learning</h3>
           <p class="project-description">
-            Built an AI-powered matching engine using Python and Mistral-7B LLM to intelligently
-            analyze learner feedback and classify resources into Preferred / Not-Preferred lists.
-            Integrated the Haversine formula and Google Distance Matrix API for contextual
-            proximity-based project-resource matching at scale.
+            Built an AI-powered matching engine using Python and Mistral-7B to analyze
+            learner feedback and classify resources into Preferred / Not-Preferred lists.
+            Integrated Haversine formula and Google Distance Matrix for geospatial
+            proximity matching between projects and resources at scale.
           </p>
           <div class="project-details">
             <div class="project-detail">
               <span class="detail-label">Problem</span>
-              <span class="detail-value">Manual project-resource matching was inaccurate and couldn't scale with growing datasets</span>
+              <span class="detail-value">Manual resource matching didn't scale — inaccurate and slow</span>
             </div>
             <div class="project-detail">
               <span class="detail-label">Solution</span>
-              <span class="detail-value">LLM-powered classification engine combining NLP feedback analysis with geospatial matching</span>
+              <span class="detail-value">LLM classification engine + geospatial context for intelligent matching</span>
             </div>
             <div class="project-detail">
-              <span class="detail-label">Impact</span>
+              <span class="detail-label">Outcome</span>
               <span class="detail-value highlight">40% improvement in project-resource matching accuracy</span>
             </div>
           </div>
@@ -462,38 +443,37 @@
             <span class="stack-tag">NestJS</span>
             <span class="stack-tag">Angular</span>
             <span class="stack-tag">Python</span>
-            <span class="stack-tag">Mistral-7B LLM</span>
+            <span class="stack-tag">Mistral-7B</span>
             <span class="stack-tag">MySQL</span>
-            <span class="stack-tag">Google Distance Matrix API</span>
-            <span class="stack-tag">Haversine Formula</span>
+            <span class="stack-tag">Google Maps API</span>
           </div>
         </article>
 
-        <!-- 2. LearnYourBenefits -->
+        <!-- 002 -->
         <article class="project-card reveal">
+          <span class="project-num mono">002</span>
           <div class="project-card-header">
             <span class="project-category">Enterprise Platform</span>
-            <span class="project-impact-badge">⚡ 30% Dev Time Saved</span>
+            <span class="project-impact-badge">-30% dev time</span>
           </div>
           <h3 class="project-title">LearnYourBenefits</h3>
           <p class="project-description">
-            Enterprise video knowledge-sharing platform with a fully automated, CLI-driven
-            code generation pipeline. Custom CLI tools scaffold complete Laravel and Angular
-            modules — including CRUD, policies, guards, forms, routes, and APIs — reducing
-            repetitive development work by 30%.
+            Enterprise video knowledge-sharing platform with a fully automated CLI
+            scaffolding pipeline. Custom tools generate complete Laravel and Angular
+            modules — CRUD, policies, guards, forms, routes, APIs — in seconds.
           </p>
           <div class="project-details">
             <div class="project-detail">
               <span class="detail-label">Problem</span>
-              <span class="detail-value">Slow, inconsistent module development creating bottlenecks across large enterprise teams</span>
+              <span class="detail-value">Inconsistent, slow module development creating team bottlenecks</span>
             </div>
             <div class="project-detail">
               <span class="detail-label">Solution</span>
-              <span class="detail-value">CLI tools automating full module scaffolding + Microsoft Entra ID auth + CI/CD pipelines</span>
+              <span class="detail-value">CLI tools + Microsoft Entra ID auth + GitHub Actions CI/CD pipeline</span>
             </div>
             <div class="project-detail">
-              <span class="detail-label">Impact</span>
-              <span class="detail-value highlight">30% reduction in development time; standardized delivery across team</span>
+              <span class="detail-label">Outcome</span>
+              <span class="detail-value highlight">30% reduction in development time; standardized team delivery</span>
             </div>
           </div>
           <div class="project-stack">
@@ -505,31 +485,32 @@
           </div>
         </article>
 
-        <!-- 3. SCP Health -->
+        <!-- 003 -->
         <article class="project-card reveal">
+          <span class="project-num mono">003</span>
           <div class="project-card-header">
             <span class="project-category">Healthcare SaaS</span>
-            <span class="project-impact-badge">🏗️ 30% Effort Reduction</span>
+            <span class="project-impact-badge">-30% dev effort</span>
           </div>
           <h3 class="project-title">SCP Health</h3>
           <p class="project-description">
-            Designed a modular healthcare platform architecture using EF Core and Expression Trees,
-            enabling modules to operate independently and be reused across contexts. Built a secure
-            UBAC authorization module and automated CI/CD pipelines via Azure DevOps — dramatically
-            cutting onboarding time for new engineers.
+            Designed a modular healthcare platform architecture using EF Core and
+            Expression Trees — modules operate independently and are fully reusable.
+            Built a secure UBAC module and Azure DevOps CI/CD, cutting new developer
+            onboarding time significantly.
           </p>
           <div class="project-details">
             <div class="project-detail">
               <span class="detail-label">Problem</span>
-              <span class="detail-value">Tightly coupled monolithic architecture slowing onboarding and creating development bottlenecks</span>
+              <span class="detail-value">Tight coupling in a monolith slowing onboarding and all feature work</span>
             </div>
             <div class="project-detail">
               <span class="detail-label">Solution</span>
-              <span class="detail-value">Modular EF Core architecture with independent, reusable modules + UBAC security layer</span>
+              <span class="detail-value">Modular EF Core architecture + UBAC security + Azure DevOps pipelines</span>
             </div>
             <div class="project-detail">
-              <span class="detail-label">Impact</span>
-              <span class="detail-value highlight">30% reduction in development effort; faster new developer onboarding</span>
+              <span class="detail-label">Outcome</span>
+              <span class="detail-value highlight">30% reduction in development effort; faster team ramp-up</span>
             </div>
           </div>
           <div class="project-stack">
@@ -538,71 +519,71 @@
             <span class="stack-tag">React</span>
             <span class="stack-tag">Azure</span>
             <span class="stack-tag">SQL Server</span>
-            <span class="stack-tag">Azure DevOps</span>
           </div>
         </article>
 
-        <!-- 4. Earth Scout / Soil Cub -->
+        <!-- 004 -->
         <article class="project-card reveal">
+          <span class="project-num mono">004</span>
           <div class="project-card-header">
-            <span class="project-category">IoT Mobile Application</span>
-            <span class="project-impact-badge">📱 Cross-Platform IoT</span>
+            <span class="project-category">IoT Mobile</span>
+            <span class="project-impact-badge">cross-platform</span>
           </div>
           <h3 class="project-title">Earth Scout — Soil Cub</h3>
           <p class="project-description">
-            Native iOS and Android application for agricultural IoT sensors. Designed a unified
-            API response architecture with automatic JSON-to-class mapping (eliminating manual
-            parsing), Bluetooth LE sensor integration, and push notifications. The pattern
-            future-proofed the entire API layer and significantly improved team velocity.
+            Native iOS and Android app for agricultural IoT sensors. Designed a unified
+            API response architecture with automatic JSON-to-class mapping, Bluetooth LE
+            sensor communication, and push notifications. The pattern future-proofed the
+            entire API layer and improved team velocity.
           </p>
           <div class="project-details">
             <div class="project-detail">
               <span class="detail-label">Problem</span>
-              <span class="detail-value">Inconsistent manual JSON parsing and no architectural pattern across iOS and Android codebases</span>
+              <span class="detail-value">No architectural consistency — manual JSON parsing across both native codebases</span>
             </div>
             <div class="project-detail">
               <span class="detail-label">Solution</span>
-              <span class="detail-value">Mapper-based auto JSON-to-class parsing + unified Bluetooth LE API architecture</span>
+              <span class="detail-value">Mapper-based auto JSON parsing + unified BLE API architecture</span>
             </div>
             <div class="project-detail">
-              <span class="detail-label">Impact</span>
-              <span class="detail-value highlight">Faster team velocity; future-proof API integration pattern adopted by team</span>
+              <span class="detail-label">Outcome</span>
+              <span class="detail-value highlight">Faster team velocity; future-proof API pattern adopted team-wide</span>
             </div>
           </div>
           <div class="project-stack">
             <span class="stack-tag">Swift (iOS)</span>
             <span class="stack-tag">Kotlin (Android)</span>
             <span class="stack-tag">Bluetooth LE</span>
-            <span class="stack-tag">Push Notifications</span>
             <span class="stack-tag">REST APIs</span>
           </div>
         </article>
 
-        <!-- 5. Rental Management System -->
+        <!-- 005 -->
         <article class="project-card reveal">
+          <span class="project-num mono">005</span>
           <div class="project-card-header">
             <span class="project-category">Enterprise ERP</span>
-            <span class="project-impact-badge">🚀 50% Dev Time Saved</span>
+            <span class="project-impact-badge">-50% dev time</span>
           </div>
           <h3 class="project-title">Rental Management System</h3>
           <p class="project-description">
-            Built a fully modular RBAC system operable via both API and CLI for enterprise
-            rental management. Developed CLI libraries that auto-generated complete CRUD modules
-            with routing, validation, and permission layers — cutting development time in half
-            for the 8-person team I led.
+            Fully modular RBAC system operable via API and CLI for enterprise rental
+            management. Built CLI libraries that auto-generate complete CRUD modules
+            with routing, validation, and permission layers — halving development time
+            for the 8-person team I led to on-time delivery.
           </p>
           <div class="project-details">
             <div class="project-detail">
               <span class="detail-label">Problem</span>
-              <span class="detail-value">Repetitive module creation slowing team; inconsistent access control across the platform</span>
+              <span class="detail-value">Repetitive module creation and inconsistent access control across the platform</span>
             </div>
             <div class="project-detail">
               <span class="detail-label">Solution</span>
               <span class="detail-value">CLI code generation for full CRUD + modular API/CLI-driven RBAC system</span>
             </div>
             <div class="project-detail">
-              <span class="detail-label">Impact</span>
-              <span class="detail-value highlight">50% reduction in dev time; 8-person team delivered full MVP on schedule</span>
+              <span class="detail-label">Outcome</span>
+              <span class="detail-value highlight">50% reduction in dev time; full MVP shipped on schedule</span>
             </div>
           </div>
           <div class="project-stack">
@@ -611,43 +592,42 @@
             <span class="stack-tag">MySQL</span>
             <span class="stack-tag">RBAC</span>
             <span class="stack-tag">CLI Tooling</span>
-            <span class="stack-tag">CI/CD</span>
           </div>
         </article>
 
-        <!-- 6. UL Design System -->
+        <!-- 006 -->
         <article class="project-card reveal">
+          <span class="project-num mono">006</span>
           <div class="project-card-header">
             <span class="project-category">Design System</span>
-            <span class="project-impact-badge">♿ 100% Test Coverage</span>
+            <span class="project-impact-badge">100% test coverage</span>
           </div>
           <h3 class="project-title">UL Design System</h3>
           <p class="project-description">
-            Migrated a legacy CSS-based design system to a modern component-driven architecture
-            using StencilJS web components. Built a complete library of accessible, reusable UI
-            components — buttons, modals, dropdowns, and more — with 100% unit test coverage,
-            enabling consistent UI delivery across multiple products.
+            Migrated a legacy CSS-based design system to a component-driven architecture
+            using StencilJS web components. Shipped a complete library of accessible,
+            reusable UI components with 100% unit test coverage — enabling consistent
+            UI delivery across multiple products.
           </p>
           <div class="project-details">
             <div class="project-detail">
               <span class="detail-label">Problem</span>
-              <span class="detail-value">Inconsistent UI across products due to a CSS-only design system with no component contracts</span>
+              <span class="detail-value">No component contracts — CSS-only system created UI inconsistency across products</span>
             </div>
             <div class="project-detail">
               <span class="detail-label">Solution</span>
-              <span class="detail-value">Web component library with full accessibility compliance and comprehensive unit tests</span>
+              <span class="detail-value">Web component library with full accessibility and unit test coverage</span>
             </div>
             <div class="project-detail">
-              <span class="detail-label">Impact</span>
-              <span class="detail-value highlight">Consistent UI across all products; 100% unit test coverage achieved</span>
+              <span class="detail-label">Outcome</span>
+              <span class="detail-value highlight">Consistent UI across all products; 100% unit test coverage</span>
             </div>
           </div>
           <div class="project-stack">
             <span class="stack-tag">StencilJS</span>
             <span class="stack-tag">TypeScript</span>
             <span class="stack-tag">Web Components</span>
-            <span class="stack-tag">Unit Testing</span>
-            <span class="stack-tag">Accessibility (WCAG)</span>
+            <span class="stack-tag">WCAG</span>
           </div>
         </article>
 
@@ -656,16 +636,16 @@
   </section>
 
   <!-- ==================== EXPERIENCE ==================== -->
-  <section class="section experience-section" id="experience" aria-label="Work experience">
+  <section class="section experience-section" id="experience" aria-label="Experience">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">Work History</span>
-        <h2 class="section-title">12 Years of Shipping,<br />Leading, and Scaling</h2>
+        <span class="section-label">Experience</span>
+        <h2 class="section-title">12 years of shipping,<br>leading, and scaling.</h2>
       </div>
 
       <div class="timeline">
 
-        <!-- ── CTO @ Ensue Nepal ── -->
+        <!-- CTO @ Ensue Nepal -->
         <div class="timeline-item reveal">
           <div class="timeline-marker" aria-hidden="true">
             <div class="timeline-dot"></div>
@@ -673,30 +653,30 @@
           <div class="timeline-content">
             <div class="timeline-header">
               <div class="timeline-title-group">
-                <h3 class="timeline-role">Chief Technology Officer (CTO)</h3>
+                <h3 class="timeline-role">Chief Technology Officer</h3>
                 <span class="timeline-company">Ensue Nepal</span>
               </div>
               <div class="timeline-meta">
-                <span class="timeline-period">Jan 2018 – Present</span>
-                <span class="timeline-location">Kathmandu, Nepal</span>
+                <span class="timeline-period mono">Jan 2018 – Present</span>
+                <span class="timeline-location mono">Kathmandu, NP</span>
               </div>
             </div>
             <div class="timeline-body">
               <ul class="timeline-achievements">
-                <li>Spearhead technical strategy, architecture, and end-to-end project delivery across all company initiatives</li>
-                <li>Lead hiring and team building — managing cross-functional teams of developers, designers, and QA</li>
-                <li>Act as primary technical liaison with clients, translating business needs into scalable architectural solutions</li>
-                <li>Define tech stacks, enforce development standards, and uphold best practices in code quality and deployment</li>
-                <li>Manage full project lifecycle — from sprint planning and backlog grooming to delivery and post-release support</li>
-                <li>Facilitate agile ceremonies: stand-ups, sprint reviews, retrospectives — ensuring consistent, quality delivery</li>
+                <li>Set technical direction, architecture, and delivery standards across all company projects</li>
+                <li>Built and scaled cross-functional teams of engineers, designers, and QA</li>
+                <li>Primary technical liaison with clients — translating business requirements into architecture decisions</li>
+                <li>Defined tech stacks, enforced code quality standards, and owned the full deployment lifecycle</li>
+                <li>Managed agile ceremonies: sprint planning, backlog grooming, retrospectives, stakeholder reporting</li>
+                <li>Reduced dev time 30–50% across multiple projects through CLI tooling and automated scaffolding</li>
               </ul>
               <div class="timeline-projects">
-                <h4>Key Projects Delivered</h4>
+                <h4>Projects shipped</h4>
                 <div class="mini-project-tags">
-                  <span class="mini-tag">Ascend Learning (AI)</span>
+                  <span class="mini-tag">Ascend Learning</span>
                   <span class="mini-tag">LearnYourBenefits</span>
                   <span class="mini-tag">SCP Health</span>
-                  <span class="mini-tag">Earth Scout — Soil Cub</span>
+                  <span class="mini-tag">Earth Scout</span>
                   <span class="mini-tag">UL Design System</span>
                 </div>
               </div>
@@ -704,7 +684,7 @@
           </div>
         </div>
 
-        <!-- ── Full Stack Developer @ Smartmobe ── -->
+        <!-- Full Stack Dev @ Smartmobe -->
         <div class="timeline-item reveal">
           <div class="timeline-marker" aria-hidden="true">
             <div class="timeline-dot"></div>
@@ -716,24 +696,24 @@
                 <span class="timeline-company">Smartmobe Solutions</span>
               </div>
               <div class="timeline-meta">
-                <span class="timeline-period">Dec 2014 – Dec 2017</span>
-                <span class="timeline-location">Kathmandu, Nepal</span>
+                <span class="timeline-period mono">Dec 2014 – Dec 2017</span>
+                <span class="timeline-location mono">Kathmandu, NP</span>
               </div>
             </div>
             <div class="timeline-body">
               <ul class="timeline-achievements">
-                <li>Promoted to team lead and awarded <em>"Employee of the Month"</em> for outstanding performance</li>
-                <li>Delivered complex projects spanning healthcare, logistics, inventory, and rental sectors</li>
-                <li>Led 8-person development team — handling task assignment, code reviews, and production deployment</li>
-                <li>Cut development time by 50% through custom CLI libraries automating full CRUD module generation</li>
-                <li>Optimized AngularJS rendering and data-fetching logic, improving load performance by 20% on GE Command Center</li>
-                <li>Designed ACL system for granular, dynamic role assignment on the BevSource E2E Inventory platform</li>
+                <li>Promoted to team lead; awarded Employee of the Month for outstanding delivery</li>
+                <li>Led 8-person team across healthcare, logistics, inventory, and rental sectors</li>
+                <li>Cut module development time by 50% through custom CLI CRUD generators</li>
+                <li>Improved GE Command Center load performance by 20% via AngularJS rendering optimization</li>
+                <li>Designed granular ACL system with dynamic role assignment for BevSource</li>
+                <li>Built BloodDonorPlus backend to handle 1,000+ concurrent requests</li>
               </ul>
               <div class="timeline-projects">
-                <h4>Key Projects Delivered</h4>
+                <h4>Projects shipped</h4>
                 <div class="mini-project-tags">
                   <span class="mini-tag">Rental Management System</span>
-                  <span class="mini-tag">BevSource E2E Inventory</span>
+                  <span class="mini-tag">BevSource Inventory</span>
                   <span class="mini-tag">GE Command Center</span>
                   <span class="mini-tag">BloodDonorPlus</span>
                 </div>
@@ -742,7 +722,7 @@
           </div>
         </div>
 
-        <!-- ── Web Developer @ Smart Solutions ── -->
+        <!-- Web Dev @ Smart Solutions -->
         <div class="timeline-item reveal">
           <div class="timeline-marker" aria-hidden="true">
             <div class="timeline-dot"></div>
@@ -754,16 +734,16 @@
                 <span class="timeline-company">Smart Solutions</span>
               </div>
               <div class="timeline-meta">
-                <span class="timeline-period">May 2013 – Nov 2014</span>
-                <span class="timeline-location">Kathmandu, Nepal</span>
+                <span class="timeline-period mono">May 2013 – Nov 2014</span>
+                <span class="timeline-location mono">Kathmandu, NP</span>
               </div>
             </div>
             <div class="timeline-body">
               <ul class="timeline-achievements">
-                <li>Started as an entry-level developer; rapidly progressed to managing a 2-person team and leading independent project delivery</li>
-                <li>Built custom Joomla plugins and components; integrated A2Billing payment systems for Himtel</li>
-                <li>Self-studied Software Design Patterns and applied them immediately to structure production codebases</li>
-                <li>Created reusable JS libraries for background jobs, image editing, and date handling — used across multiple projects</li>
+                <li>Started entry-level; progressed to managing a 2-person team and leading independent delivery</li>
+                <li>Built custom Joomla plugins and integrated A2Billing payment systems</li>
+                <li>Self-studied Software Design Patterns and applied them immediately in production codebases</li>
+                <li>Created reusable JS libraries for background jobs, image editing, and date handling</li>
               </ul>
             </div>
           </div>
@@ -774,19 +754,18 @@
   </section>
 
   <!-- ==================== EDUCATION ==================== -->
-  <section class="section education-section" id="education" aria-label="Education and certifications">
+  <section class="section education-section" id="education" aria-label="Education">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">Credentials</span>
-        <h2 class="section-title">Education &amp;<br />Certifications</h2>
+        <span class="section-label">Education</span>
+        <h2 class="section-title">Credentials &amp;<br>Certifications</h2>
       </div>
 
       <div class="education-grid">
 
-        <!-- Education -->
         <div class="education-block reveal">
           <h3 class="education-block-title">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
             </svg>
             Education
@@ -802,37 +781,36 @@
             <div class="edu-item">
               <div class="edu-year">2008</div>
               <div class="edu-details">
-                <strong>Higher Secondary — Science Major</strong>
+                <strong>Higher Secondary — Science</strong>
                 <span>Nobel Higher Secondary School</span>
               </div>
             </div>
             <div class="edu-item">
               <div class="edu-year">2006</div>
               <div class="edu-details">
-                <strong>School — Mathematics Major</strong>
+                <strong>School — Mathematics</strong>
                 <span>Nyatapola Secondary School</span>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Certifications -->
         <div class="education-block reveal">
           <h3 class="education-block-title">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
             </svg>
             Certifications
           </h3>
           <div class="cert-grid">
-            <div class="cert-item">Machine Learning, Data Science &amp; Generative AI with Python</div>
+            <div class="cert-item">Machine Learning, Data Science &amp; Generative AI</div>
             <div class="cert-item">Professional Android App Development</div>
             <div class="cert-item">Professional iOS App Development</div>
             <div class="cert-item">Mastering Design Systems</div>
             <div class="cert-item">Software Design Patterns</div>
             <div class="cert-item">Project Management &amp; Agile</div>
             <div class="cert-item">Design Principles</div>
-            <div class="cert-item">Master Data Structures &amp; Algorithms</div>
+            <div class="cert-item">Data Structures &amp; Algorithms</div>
           </div>
         </div>
 
@@ -844,22 +822,20 @@
   <section class="section contact-section" id="contact" aria-label="Contact">
     <div class="container">
       <div class="section-header reveal">
-        <span class="section-label">Get In Touch</span>
-        <h2 class="section-title">Let's Build Something<br />Remarkable Together</h2>
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Let's build something<br>worth building.</h2>
         <p class="section-description">
-          Whether you're looking for a senior engineer, a CTO to scale your team,
-          or a technical partner for your next big idea — I'd love to hear from you.
+          Open to full-time roles, consulting, and CTO / technical leadership opportunities. Remote-friendly.
         </p>
       </div>
 
       <div class="contact-grid">
 
-        <!-- Contact info -->
         <div class="contact-info reveal">
           <div class="contact-info-card">
             <div class="contact-info-item">
               <div class="contact-info-icon" aria-hidden="true">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
                 </svg>
               </div>
@@ -871,86 +847,76 @@
 
             <div class="contact-info-item">
               <div class="contact-info-icon" aria-hidden="true">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/>
                 </svg>
               </div>
               <div>
                 <span class="contact-info-label">LinkedIn</span>
-                <a href="https://linkedin.com/in/amarl" target="_blank" rel="noopener noreferrer" class="contact-info-value">
-                  linkedin.com/in/amarl
-                </a>
+                <a href="https://linkedin.com/in/amarl" target="_blank" rel="noopener noreferrer" class="contact-info-value">linkedin.com/in/amarl</a>
               </div>
             </div>
 
             <div class="contact-info-item">
               <div class="contact-info-icon" aria-hidden="true">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.06 8.84 19.79 19.79 0 01.01.22A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16z"/>
                 </svg>
               </div>
               <div>
                 <span class="contact-info-label">Phone</span>
-                <a href="tel:+9779843142234" class="contact-info-value">+977-984-314-2234</a>
+                <a href="tel:+9779843142234" class="contact-info-value mono">+977-984-314-2234</a>
               </div>
             </div>
 
             <div class="contact-info-item">
               <div class="contact-info-icon" aria-hidden="true">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
                 </svg>
               </div>
               <div>
                 <span class="contact-info-label">Location</span>
-                <span class="contact-info-value">Kathmandu, Nepal</span>
+                <span class="contact-info-value">Kathmandu, Nepal (remote-friendly)</span>
               </div>
             </div>
           </div>
 
           <div class="availability-badge">
             <span class="avail-dot" aria-hidden="true"></span>
-            Open to new opportunities
+            open to new opportunities
           </div>
         </div>
 
-        <!-- Contact form -->
         <div class="contact-form-wrapper reveal">
           <form class="contact-form" id="contactForm" novalidate>
             <div class="form-group">
-              <label for="name">Your Name</label>
+              <label for="name">Name</label>
               <input type="text" id="name" name="name" placeholder="Jane Smith" required autocomplete="name" />
             </div>
             <div class="form-group">
-              <label for="email">Email Address</label>
+              <label for="email">Email</label>
               <input type="email" id="email" name="email" placeholder="jane@company.com" required autocomplete="email" />
             </div>
             <div class="form-group">
-              <label for="subject">I'm reaching out about…</label>
+              <label for="subject">Topic</label>
               <select id="subject" name="subject">
                 <option value="">Select a topic</option>
                 <option value="fulltime">Full-time Opportunity</option>
                 <option value="contract">Contract / Consulting</option>
-                <option value="cto">CTO / Technical Leadership Role</option>
+                <option value="cto">CTO / Technical Leadership</option>
                 <option value="project">Project Collaboration</option>
                 <option value="other">Something Else</option>
               </select>
             </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                placeholder="Tell me about your project, team, or opportunity..."
-                required
-              ></textarea>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about the project or role..." required></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-lg btn-full">
-              <span>Send Message</span>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
-                <line x1="22" y1="2" x2="11" y2="13"/>
-                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+              <span>Send message</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
               </svg>
             </button>
             <p class="form-note" id="formNote" aria-live="polite"></p>
@@ -966,16 +932,16 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <span class="footer-logo">AL</span>
+          <span class="footer-logo">amar.dev</span>
           <p>Full Stack Architect &amp; CTO<br />Kathmandu, Nepal</p>
           <div class="footer-social">
-            <a href="https://linkedin.com/in/amarl" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <a href="https://linkedin.com/in/amarl" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                 <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/>
               </svg>
             </a>
-            <a href="mailto:amar.lamichhane@gmail.com" aria-label="Send email">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <a href="mailto:amar.lamichhane@gmail.com" aria-label="Email">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
               </svg>
             </a>
@@ -995,18 +961,18 @@
 
         <div class="footer-cta">
           <h4>Ready to build?</h4>
-          <p>Open to full-time, consulting, and CTO / technical leadership opportunities worldwide.</p>
-          <a href="mailto:amar.lamichhane@gmail.com" class="btn btn-primary btn-md">Start a Conversation</a>
+          <p>Open to full-time, consulting, and CTO / technical leadership roles worldwide.</p>
+          <a href="mailto:amar.lamichhane@gmail.com" class="btn btn-primary btn-md">Start a conversation</a>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>© 2025 Amar Lamichhane</p>
+        <p class="mono">© 2025 Amar Lamichhane</p>
         <a href="Amar_Lamichhane_Resume_Complete.docx" download class="footer-resume-link">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
           </svg>
-          Download Resume
+          Download resume
         </a>
       </div>
     </div>
