@@ -1,0 +1,153 @@
+You are an award-winning UI/UX designer, brand strategist, and senior front-end architect.
+
+I am attaching my resume (DOCX). Analyze it deeply and create a complete, production-ready personal portfolio website tailored to three audiences:
+
+1. Recruiters
+2. Clients
+3. Startup founders / hiring managers
+
+The website must strategically appeal to all three without feeling generic.
+
+-------------------------------------
+OBJECTIVE
+-------------------------------------
+Transform my resume into a modern, high-impact, visually impressive portfolio website that:
+
+- Establishes credibility
+- Builds trust
+- Demonstrates technical depth
+- Highlights business impact
+- Feels premium and intentional
+- Reflects my real strengths (no generic fluff)
+
+-------------------------------------
+STRATEGIC REQUIREMENTS
+-------------------------------------
+
+1. Personal Branding
+- Identify my strongest professional positioning
+- Craft a powerful headline (not generic)
+- Create a concise but memorable personal brand statement
+- Extract measurable impact from my experience
+
+2. Audience-Specific Messaging
+
+For Recruiters:
+- Clear skills
+- Easy-to-scan experience
+- Timeline-based work history
+- Downloadable resume
+
+For Clients:
+- Problem → Solution → Result framing
+- Business value emphasis
+- Trust-building tone
+- Clear call-to-action
+
+For Startup Founders:
+- Ownership mindset
+- Innovation
+- Scalability thinking
+- Systems thinking
+- Technical depth
+
+-------------------------------------
+DESIGN REQUIREMENTS
+-------------------------------------
+
+Design must feel:
+- Premium (inspired by Apple, Stripe, Linear)
+- Clean but bold
+- Confident
+- Modern
+- Slightly futuristic but professional
+
+Include:
+- Elegant typography pairing
+- Strong visual hierarchy
+- Subtle gradients or glass effects (if appropriate)
+- Smooth scroll-triggered animations
+- Micro-interactions
+- Hover effects
+- Sticky navigation
+- Section-based smooth scrolling
+- Dark mode default + light mode toggle
+
+-------------------------------------
+STRUCTURE
+-------------------------------------
+
+1. Hero Section
+   - Strong positioning headline
+   - Short value proposition
+   - Primary CTA (Hire Me / Let's Work Together)
+   - Secondary CTA (Download Resume)
+   - Subtle animated background
+
+2. About Section
+   - Professional narrative (not resume copy)
+   - Mission and approach
+
+3. Skills
+   - Categorized (Frontend, Backend, Mobile, Tools, etc.)
+   - Visually appealing layout
+   - Skill depth indication (not cheesy progress bars)
+
+4. Projects
+   - Highlight 3–6 strongest projects
+   - Include:
+     - Problem
+     - Solution
+     - Tech stack
+     - Impact
+   - Card-based layout with animation
+
+5. Experience
+   - Timeline format
+   - Achievement-focused
+   - Quantified impact
+
+6. Education & Certifications
+
+7. Contact Section
+   - Strong call-to-action
+   - Social links
+   - Email form
+
+-------------------------------------
+TECHNICAL OUTPUT
+-------------------------------------
+
+Generate:
+
+- Full HTML
+- Modern CSS (or Tailwind if better)
+- JavaScript for animations
+- Use modern animation libraries if needed
+- Well-commented clean code
+- Folder structure suggestion
+- Fully responsive
+- SEO-friendly structure
+- Performance optimized
+
+-------------------------------------
+OUTPUT FORMAT
+-------------------------------------
+
+1. Final website code (ready to run)
+2. Design explanation (why each decision was made)
+3. Deployment guide (Netlify, Vercel, GitHub Pages)
+4. Suggestions to elevate it further
+
+-------------------------------------
+IMPORTANT
+-------------------------------------
+
+- Do NOT generate generic portfolio text.
+- Everything must be derived from my resume.
+- Rewrite resume content into website-quality language.
+- Emphasize impact over responsibilities.
+- Make it recruiter-impressive and client-convincing.
+- Make it startup-founder exciting.
+
+Make it world-class.
